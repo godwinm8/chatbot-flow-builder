@@ -6,10 +6,10 @@ Supports draggable & editable text nodes, flow validation, and single-edge-per-s
 ---
 
 ## 📍 Hosted App
-✅ [Live Demo](https://YOUR_DEPLOYED_URL)  
+✅ [https://chatbot-flow-builder-pearl-ten.vercel.app/](https://YOUR_DEPLOYED_URL)  
 
 ## 📍 Source Code
-✅ [GitHub Repository](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME)
+✅ [https://github.com/godwinm8/chatbot-flow-builder.git](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME)
 
 ---
 
