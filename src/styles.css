@@ -1,0 +1,107 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 🔥 Prevent scroll */
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.nodes-panel {
+  width: 220px;
+  background: #f9fafb;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.flow-canvas {
+  flex: 1;
+  background: #f0f4f8;
+}
+
+.node-item {
+  padding: 8px;
+  margin: 8px 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: grab;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.node-item:hover {
+  background: #e6f7ff;
+  border-color: #91d5ff;
+}
+
+.save-button {
+  padding: 10px 30px;
+  background: #52c41a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  margin-right: 90%;
+}
+.save-button:hover {
+  background: #389e0d;
+}
+
+input {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  text-align: center;
+}
+input:focus {
+  outline: none;
+  border-bottom: 1px solid #1890ff;
+}
+
+.node-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 14px;
+  width: 100px;
+  text-align: center;
+}
+.node-input:focus {
+  outline: none;
+  border-color: #1890ff;
+  box-shadow: 0 0 2px #1890ff;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.nodes-panel {
+  width: 220px;
+  background: #f9fafb;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.flow-canvas {
+  flex: 1;
+}
